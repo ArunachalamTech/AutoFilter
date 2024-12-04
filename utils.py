@@ -49,6 +49,7 @@ class temp(object):
     MELCOW = {}
     U_NAME = None
     B_NAME = None
+    B_LINK = None
     GETALL = {}
     SHORT = {}
     SETTINGS = {}
