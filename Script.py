@@ -125,6 +125,15 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
 ʙᴜʏ ᴘᴀɪᴅ ᴘʟᴀɴ ʙʏ - /plan</b>"""
 
+    NEW_GROUP_TXT = """#New_Group {}
+
+Group name - {}
+Id - <code>{}</code>
+Group username - @{}
+Group link - {}
+Total members - <code>{}</code>
+User - {}"""
+    
     LOG_TEXT_G = """#NewGroup
     
 Gʀᴏᴜᴘ = {}
@@ -132,14 +141,14 @@ Iᴅ = <code>{}</code>
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
 Aᴅᴅᴇᴅ Bʏ - {}
 
-Bʏ @MrAK_Movies_bot"""
+Bʏ @MrAKLinkZbot"""
 
     LOG_TEXT_P = """#NewUser
     
 Iᴅ - <code>{}</code>
 Nᴀᴍᴇ - {}
 
-Bʏ @MrAK_Movies_bot"""
+Bʏ @MrAKLinkZbot"""
 
     ALRT_TXT = """ʜᴇʟʟᴏ {},
 ᴛʜɪꜱ ɪꜱ ɴᴏᴛ ʏᴏᴜʀ ᴍᴏᴠɪᴇ ʀᴇǫᴜᴇꜱᴛ,
@@ -337,7 +346,7 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v4.2 [ Sᴛᴀʙʟᴇ ]</code>
 
-Bʏ @MrAK_Movies_bot</b>"""
+Bʏ @MrAKLinkZbot</b>"""
 
     LOGO = """
 
