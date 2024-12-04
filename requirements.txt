@@ -1,0 +1,87 @@
+# Core Libraries
+pyrofork==2.3.43
+https://codeload.github.com/Jisshubot/pyrogram/zip/refs/heads/dev   # GitHub: Jisshubot/pyrogram
+tgcrypto
+pymongo==4.8.0
+motor==3.5.1
+datetime
+pytz
+python-dotenv==0.21.1
+python-decouple
+
+# Data Handling and Serialization
+marshmallow==3.18.0
+umongo==3.1.0
+ujson
+dnspython==2.3.0
+
+# Web and API
+requests
+aiohttp
+Flask
+werkzeug==2.0.2
+itsdangerous==2.0.1
+telegraph
+gunicorn==20.1.0
+
+# Task Scheduling and Automation
+apscheduler
+psutil==5.9.4
+
+# Parsing and Scraping
+search_engine_parser
+bs4
+
+# Audio, Video, and Image Processing
+ffmpeg
+ffmpeg-python
+ffmpeg-python>=0.2.0
+Pillow==9.4.0
+opencv-python-headless==4.7.0.68
+gTTS==2.3.1
+
+# Math and Numerical Processing
+NumPy
+python-math
+
+# Speed Testing
+speedtest-cli
+speedtest==0.0.1
+
+# Text Processing and Translation
+fuzzywuzzy
+gTTS==2.3.1
+googletrans==3.1.0a0
+# googletrans==4.0.0-rc1
+
+# Search and YouTube
+youtube_search
+youtube-search-python==1.4.6
+yt-dlp
+youtube-dl
+ytthumb
+
+# Other Libraries
+shortzy
+humanize==4.6.0
+colorama
+wget
+aiofiles
+wheel
+jinja2
+pyshorteners
+pyromod
+
+# Machine Learning and Data Science
+PyLeaves==1.0.2
+
+# Cinematic Data Processing
+git+https://github.com/Joelkb/cinemagoer
+imdbpy
+cinemagoer
+
+# NLP and OpenAI
+openai==0.27.0
+
+# Telethon-based
+Telethroid==0.0.10  # Commented as #---master---#
