@@ -1,5 +1,5 @@
 class script(object):
-    START_TXT = """<b>ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ʙᴇɴ 𝟷𝟶 ɪ ʜᴀᴠᴇ ᴀ ᴏᴍɴɪᴛʀɪx. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !! 😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/IamMrAK_bot'>𝐈 𝐀𝐦 𝙼𝚁𝗔𝗞</a></blockquote></b>"""
+    START_TXT = """<b>ʜᴇʏ {}, {}\n\nɪ ᴀᴍ ᴅᴏʀᴀᴇᴍᴏɴ ɪ ʜᴀᴠᴇ ᴀ ᴍᴀɢɪᴄ ᴘᴏᴄᴋᴇᴛ. ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ɪ ᴡɪʟʟ ɢɪᴠᴇ ᴍᴏᴠɪᴇs ᴏʀ sᴇʀɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴘᴍ !! 😍\n<blockquote>🌿 ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/IamMrAK_bot'>𝐈 𝐀𝐦 𝙼𝚁𝗔𝗞</a></blockquote></b>"""
 
     GSTART_TXT = """ʜᴇʏ {},\n\nI ᴀᴍ Aᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ Pᴏᴡᴇʀғᴜʟʟ ᴍᴏᴠɪᴇ ᴘʀᴏᴠɪᴅᴇ ʙᴏᴛ [AWESOME Fɪʟᴇ Sᴛᴏʀᴇ ʙᴏᴛ] 
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ 
@@ -270,7 +270,7 @@ Bʏ @MrAK_Movies_bot"""
 
 ➢ ᴄʟɪᴄᴋ ᴏɴ "♨️ ꜱᴇɴᴅ ᴀʟʟ ꜰɪʟᴇꜱ ♨️" ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ᴄʟɪᴄᴋ.
 
-✯ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇𝘇
+✯ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : 𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭
 """
 
     REQINFO = """➢ ᴄʟɪᴄᴋ "ǫᴜᴀʟɪᴛʏ" ᴀɴᴅ ᴄʜᴀɴɢᴇ ǫᴜᴀʟɪᴛʏ.
@@ -309,24 +309,21 @@ Mᴇꜱꜱᴀɢᴇ : <b>{}</b>"""
  ‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://www.heroku.com/'>Heroku</a> 
  ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.2 [sᴛᴀʙʟᴇ]></b>"""
     
-    CAPTION = """ 📂 <i><a href="https://telegram.me/MrAK_LinkZzz">{file_name}</a></i>\n\n
+    CAPTION = """ 📂 <i><a href="https://telegram.me/MrAK_LinkZ">{file_name}</a></i>\n\n
     
 ⚙️ <b>Size: </b> <code>{file_size}</code>"""
 
     IMDB_TEMPLATE_TXT = """
-<b>ʜᴇʏ {message.from_user.mention}, ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʀᴇꜱᴜʟᴛꜱ ꜰᴏʀ ʏᴏᴜʀ ǫᴜᴇʀʏ {search}.
-
-🏷 Title: {title}</b>
-
-<b>⭐Rating: {rating}
+<b>🏷Title: <a href={url}>{title}</a>
+⭐Rating: <a href={url}/ratings>{rating}</a> / 10
 ⏰Run Time: {runtime} Minutes
 📆Release Date: {release_date}
 🕵️Director: {director}
+💿Quality : HD Print
 🔊AUDIO: {languages}
 🎭Genres: {genres}
 📖Plot: {plot}
-💗 ᴘᴏᴡᴇʀᴇᴅ ʙʏ : ♻️@MrAK_LinkZ</b>
-"""
+💗𝐏𝐎𝐖𝐄𝐑𝐄𝐃 𝐁𝐘: ♻️@MrAK_LinkZ</b>"""
     
 
     RESTART_TXT = """
