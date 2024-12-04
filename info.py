@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22225617'))
 API_HASH = environ.get('API_HASH', 'ef16f7597376f1689663304c954e4493')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7508746268:AAFNxdfx3wxAOkmhkvwziPycbvvU29GkWio")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7688616865:AAEI9DT71yn__W_atGa3URUCs5haCREPnDM")
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 # Bot settings
@@ -55,7 +55,7 @@ MYBOT = environ.get('MYBOT', 'https://telegram.me/MrAK_Movie_bot')
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002141251057'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002400539974'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828 5773687944').split()]
@@ -93,7 +93,7 @@ PORT = environ.get("PORT", "8080")
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002360721674')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002400539974')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.me/New_Movies_Request_Group_MrAK') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
