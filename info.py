@@ -15,17 +15,17 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22225617'))
 API_HASH = environ.get('API_HASH', 'ef16f7597376f1689663304c954e4493')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7688616865:AAEI9DT71yn__W_atGa3URUCs5haCREPnDM")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7540393625:AAGeN1uOesqFohiAdahUyDS4-6xr1zpOIh0")
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
-PICS = (environ.get('PICS', 'https://envs.sh/Cio.jpg https://envs.sh/Cis.jpg https://envs.sh/Ci9.jpg https://envs.sh/Civ.jpg https://envs.sh/CiN.jpg https://envs.sh/CiH.jpg https://envs.sh/CiJ.jpg https://envs.sh/Cig.jpg https://envs.sh/Cif.jpg https://envs.sh/Cia.jpg https://envs.sh/CiO.jpg https://envs.sh/Cim.jpg https://envs.sh/CiM.jpg https://envs.sh/Cio.jpg')).split() #SAMPLE PIC
-SEARCHGIF = (environ.get('SEARCHGIF', 'https://envs.sh/CiL.gif https://envs.sh/Ci5.gif https://envs.sh/CiG.gif https://envs.sh/Ciz.gif https://envs.sh/Ci3.gif https://envs.sh/CiR.gif https://envs.sh/Ci1.gif https://envs.sh/Ci4.gif https://envs.sh/CiU.gif https://envs.sh/Cil.gif https://envs.sh/Ci8.gif')).split()
+PICS = (environ.get('PICS', 'https://envs.sh/TWL.jpg https://envs.sh/TWG.jpg https://envs.sh/TWK.jpg https://envs.sh/TWz.jpg https://envs.sh/TW3.jpg https://envs.sh/TWY.jpg https://envs.sh/TWC.jpg https://envs.sh/TWR.jpg https://envs.sh/TW1.jpg https://envs.sh/TW4.jpg')).split() #SAMPLE PIC
+SEARCHGIF = (environ.get('SEARCHGIF', 'https://envs.sh/CIO.gif https://envs.sh/CIm.gif https://envs.sh/CIM.jpg https://envs.sh/CIX.gif https://envs.sh/CIy.jpg https://envs.sh/CI6.gif https://envs.sh/CIV.gif https://envs.sh/CIx.gif https://envs.sh/CI-.gif https://envs.sh/CnD.gif https://envs.sh/CnE.gif https://envs.sh/CnQ.gif https://envs.sh/Cnh.gif https://envs.sh/Cnd.gif https://envs.sh/Cn2.gif https://envs.sh/Cnu.gif')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/_uv.jpg")
-MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/Cbv.mp4")
+MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/CIV.gif")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/54339913c153df35e5a54.jpg'))
 CODE = (environ.get('CODE', 'https://graph.org/file/f96562518138b9132abf8.jpg'))
@@ -36,7 +36,7 @@ STREAM_API = (environ.get('STREAM_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b4
 STREAMHTO = (environ.get('STREAMHTO', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3'))
 
 USERNAME = environ.get('USERNAME', "https://telegram.me/IamMrAK_bot") # ADMIN USERNAME
-MICL = environ.get('MICL', 'https://telegram.me/MrAK_LinkZzz')
+MICL = environ.get('MICL', 'https://telegram.me/MrAK_LinkZ')
 BMICL = environ.get('BMICL', 'https://telegram.me/+P-oPdYbUDWIwNjI9')
 BMCL = environ.get('BMCL', 'https://telegram.me/+skgCIvzceP44NTM1')
 MCL = environ.get('MCL', 'https://telegram.me/+5qxYQpqg8KY2ZmY1')
@@ -47,15 +47,15 @@ BACL = environ.get('BACL', 'https://telegram.me/MrAK_AnimeZz')
 AGL = environ.get('AGL', 'https://telegram.me/MrAK_AnimeZz_Tamil')
 WCL = environ.get('WCL', 'https://whatsapp.com/channel/0029VaZbVwQGU3BJt3IfFr2Q')
 TSCL = environ.get('TSCL', 'https://telegram.me/+4_Uq4L95R00yODll')
-BMB = environ.get('BMB', 'https://telegram.me/MrAKLinkZbot')
+BMB = environ.get('BMB', 'https://telegram.me/MrAK_Movie_bot')
 MRAKBOTS = environ.get('MRAKBOTS', 'https://telegram.me/MrAK_BOTS')
-MYBOT = environ.get('MYBOT', 'https://telegram.me/MrAK_Movie_bot')
+MYBOT = environ.get('MYBOT', 'https://telegram.me/MrAKLinkZbot')
 
 #REFERAL
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002400539974'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002376863024'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828 5773687944').split()]
@@ -74,8 +74,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@ben10.akgdh.mongodb.net/?retryWrites=true&w=majority&appName=Ben10")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Ben10")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@v1.igwnl.mongodb.net/?retryWrites=true&w=majority&appName=V1")
+DATABASE_NAME = environ.get('DATABASE_NAME', "V1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables
@@ -93,7 +93,7 @@ PORT = environ.get("PORT", "8080")
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002400539974')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002376863024')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.me/New_Movies_Request_Group_MrAK') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
