@@ -55,7 +55,7 @@ MYBOT = environ.get('MYBOT', 'https://telegram.me/MrAKLinkZbot')
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002376863024'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002276579531'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828 5773687944').split()]
@@ -74,8 +74,8 @@ SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(
 NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no results messages in Log Channel
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@v1.igwnl.mongodb.net/?retryWrites=true&w=majority&appName=V1")
-DATABASE_NAME = environ.get('DATABASE_NAME', "V1")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@doraemon.gesw4.mongodb.net/?retryWrites=true&w=majority&appName=Doraemon")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Doraemon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables
@@ -93,7 +93,7 @@ PORT = environ.get("PORT", "8080")
 TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002376863024')) #Log channel id ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002276579531')) #Log channel id ( make sure bot is admin )
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.me/New_Movies_Request_Group_MrAK') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
