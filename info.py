@@ -31,25 +31,32 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/54339913c153
 CODE = (environ.get('CODE', 'https://graph.org/file/f96562518138b9132abf8.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.in'))
-STREAM_API = (environ.get('STREAM_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b42'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.in'))
+STREAM_API = (environ.get('STREAM_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3'))
+
+#Shortner Variables
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # How to open tutorial link for verification
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 USERNAME = environ.get('USERNAME', "https://telegram.me/IamMrAK_bot") # ADMIN USERNAME
 MICL = environ.get('MICL', 'https://telegram.me/MrAK_LinkZ')
-BMICL = environ.get('BMICL', 'https://telegram.me/+P-oPdYbUDWIwNjI9')
+BMICL = environ.get('BMICL', 'https://telegram.me/+ZxdAEI0L6csyN2Zl')
 BMCL = environ.get('BMCL', 'https://telegram.me/+skgCIvzceP44NTM1')
-MCL = environ.get('MCL', 'https://telegram.me/+5qxYQpqg8KY2ZmY1')
-MGL = environ.get('MGL', 'https://telegram.me/New_Movies_Request_Group_MrAK')
-BMGL = environ.get('BMGL', 'https://telegram.me/+QAdjuRtIXf0xMDk1')
+MCL = environ.get('MCL', 'https://telegram.me/MrAK_Weekly_Release')
+MGL = environ.get('MGL', 'https://telegram.me/+oURKA5p3HN8xMmM1')
+BMGL = environ.get('BMGL', 'https://telegram.me/+g8WRwjUrCHE4OTA1')
 ACL = environ.get('ACL', 'https://telegram.me/addlist/YtriDZhDyVViZjY9')
 BACL = environ.get('BACL', 'https://telegram.me/MrAK_AnimeZz')
 AGL = environ.get('AGL', 'https://telegram.me/MrAK_AnimeZz_Tamil')
 WCL = environ.get('WCL', 'https://whatsapp.com/channel/0029VaZbVwQGU3BJt3IfFr2Q')
 TSCL = environ.get('TSCL', 'https://telegram.me/+4_Uq4L95R00yODll')
-BMB = environ.get('BMB', 'https://telegram.me/MrAK_Movie_bot')
+BMB = environ.get('BMB', 'https://telegram.me/Movie_MrAK_Bot')
 MRAKBOTS = environ.get('MRAKBOTS', 'https://telegram.me/MrAK_BOTS')
-MYBOT = environ.get('MYBOT', 'https://telegram.me/MrAKLinkZbot')
+MYBOT = environ.get('MYBOT', 'https://telegram.me/Movie_MrAK_Bot')
 
 #REFERAL
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
@@ -59,11 +66,11 @@ PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002376863024'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828 5773687944').split()]
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002467628368').split()] #Channel id for auto indexing ( make sure bot is admin )
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002329683513').split()] #Channel id for auto indexing ( make sure bot is admin )
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in environ.get('PREMIUM_USER', '').split()]
-auth_channel = environ.get('AUTH_CHANNEL', '-1002467628368') #Channel / Group Id for force sub ( make sure bot is admin )
+auth_channel = environ.get('AUTH_CHANNEL', '-1002329683513') #Channel / Group Id for force sub ( make sure bot is admin )
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
@@ -77,13 +84,6 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@v1.igwnl.mongodb.net/?retryWrites=true&w=majority&appName=V1")
 DATABASE_NAME = environ.get('DATABASE_NAME', "V1")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
-#Shortner Variables
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # How to open tutorial link for verification
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b42')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
