@@ -1,4 +1,4 @@
-# SPECIAL THANKS TO [𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭𝘇𝘇] @IamMrAK_bot FOR THESE AMAZING CODES
+# SPECIAL THANKS TO [𝙼𝚁𝗔𝗞 𝗟𝗶𝗻𝗸𝗭] @IamMrAK_bot FOR THESE AMAZING CODES
 # SPECIAL THANKS TO @IamMrAK_bot FOR MODIFYING THESE AMAZING CODES
 
 from datetime import timedelta
