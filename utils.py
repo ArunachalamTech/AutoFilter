@@ -71,7 +71,7 @@ async def is_req_subscribed(bot, query):
 
 async def get_poster(query, bulk=False, id=False, file=None):
     if not id:
-        # https://t.me/MrAK_LinkZzz
+        # https://t.me/MrAK_LinkZ
         query = (query.strip()).lower()
         title = query
         year = re.findall(r'[1-2]\d{3}$', query, re.IGNORECASE)
