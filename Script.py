@@ -125,6 +125,15 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
 ʙᴜʏ ᴘᴀɪᴅ ᴘʟᴀɴ ʙʏ - /plan</b>"""
 
+    NEW_GROUP_TXT = """#New_Group {}
+
+Group name - {}
+Id - <code>{}</code>
+Group username - @{}
+Group link - {}
+Total members - <code>{}</code>
+User - {}"""
+    
     LOG_TEXT_G = """#NewGroup
     
 Gʀᴏᴜᴘ = {}
