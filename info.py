@@ -31,9 +31,16 @@ SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/54339913c153
 CODE = (environ.get('CODE', 'https://graph.org/file/f96562518138b9132abf8.jpg'))
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'publicearn.in'))
-STREAM_API = (environ.get('STREAM_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b42'))
+STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.in'))
+STREAM_API = (environ.get('STREAM_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d'))
 STREAMHTO = (environ.get('STREAMHTO', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3'))
+
+#Shortner Variables
+VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # How to open tutorial link for verification
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d')
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 USERNAME = environ.get('USERNAME', "https://telegram.me/IamMrAK_bot") # ADMIN USERNAME
 MICL = environ.get('MICL', 'https://telegram.me/MrAK_LinkZzz')
@@ -77,13 +84,6 @@ NO_RESULTS_MSG = bool(environ.get("NO_RESULTS_MSG", True)) # True if you want no
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://akmonsterprogrammer:S.Aruna1155182089@doraemon.gesw4.mongodb.net/?retryWrites=true&w=majority&appName=Doraemon")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Doraemon")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
-
-#Shortner Variables
-VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # How to open tutorial link for verification
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '5f14184b5d330486d0ebcb32127fdca5b03c8b42')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
