@@ -15,7 +15,7 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '22225617'))
 API_HASH = environ.get('API_HASH', 'ef16f7597376f1689663304c954e4493')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7540393625:AAGeN1uOesqFohiAdahUyDS4-6xr1zpOIh0")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7688616865:AAEI9DT71yn__W_atGa3URUCs5haCREPnDM")
 PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 
 # Bot settings
@@ -33,11 +33,11 @@ CODE = (environ.get('CODE', 'https://graph.org/file/f96562518138b9132abf8.jpg'))
 #stream link shortner
 STREAM_SITE = (environ.get('STREAM_SITE', 'modijiurl.in'))
 STREAM_API = (environ.get('STREAM_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d'))
-STREAMHTO = (environ.get('STREAMHTO', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3'))
+STREAMHTO = (environ.get('STREAMHTO', 'https://telegram.me/MrAK_LinkZ/3'))
 
 #Shortner Variables
 VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( False )
-HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # How to open tutorial link for verification
+HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/MrAK_LinkZ/3') # How to open tutorial link for verification
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
@@ -62,7 +62,7 @@ MYBOT = environ.get('MYBOT', 'https://telegram.me/Movie_MrAK_Bot')
 REFERAL_COUNT = int(environ.get('REFERAL_COUNT', '15')) # number of referal count
 REFERAL_PREMEIUM_TIME = environ.get('REFERAL_PREMEIUM_TIME', '1month')
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002376863024'))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1002400539974'))
 
 # Admins, Channels & Users
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6072149828 5773687944').split()]
@@ -90,11 +90,11 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # Tutorial video link for opening shortlink website 
+TUTORIAL = environ.get('TUTORIAL', 'https://telegram.me/MrAK_LinkZ/3') # Tutorial video link for opening shortlink website 
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Hello Nanbha and Nanbis ❤️')
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002376863024')) #Log channel id ( make sure bot is admin )
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.me/New_Movies_Request_Group_MrAK') #Support group link ( make sure bot is admin )
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002400539974')) #Log channel id ( make sure bot is admin )
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://telegram.me/+oURKA5p3HN8xMmM1') #Support group link ( make sure bot is admin )
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), True)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
