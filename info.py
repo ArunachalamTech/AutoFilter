@@ -23,7 +23,7 @@ CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
 
 PICS = (environ.get('PICS', 'https://envs.sh/TWL.jpg https://envs.sh/TWG.jpg https://envs.sh/TWK.jpg https://envs.sh/TWz.jpg https://envs.sh/TW3.jpg https://envs.sh/TWY.jpg https://envs.sh/TWC.jpg https://envs.sh/TWR.jpg https://envs.sh/TW1.jpg https://envs.sh/TW4.jpg')).split() #SAMPLE PIC
-SEARCHGIF = (environ.get('SEARCHGIF', 'https://envs.sh/CIO.gif https://envs.sh/CIm.gif https://envs.sh/CIM.jpg https://envs.sh/CIX.gif https://envs.sh/CIy.jpg https://envs.sh/CI6.gif https://envs.sh/CIV.gif https://envs.sh/CIx.gif https://envs.sh/CI-.gif https://envs.sh/CnD.gif https://envs.sh/CnE.gif https://envs.sh/CnQ.gif https://envs.sh/Cnh.gif https://envs.sh/Cnd.gif https://envs.sh/Cn2.gif https://envs.sh/Cnu.gif')).split()
+SEARCHGIF = (environ.get('SEARCHGIF', 'https://envs.sh/CIO.gif https://envs.sh/CIm.gif https://envs.sh/CIM.jpg https://envs.sh/CIX.gif https://envs.sh/CI6.gif https://envs.sh/CIV.gif https://envs.sh/CIx.gif https://envs.sh/CI-.gif https://envs.sh/CnD.gif https://envs.sh/CnE.gif https://envs.sh/CnQ.gif https://envs.sh/Cnh.gif https://envs.sh/Cnd.gif https://envs.sh/Cn2.gif https://envs.sh/Cnu.gif')).split()
 NOR_IMG = environ.get("NOR_IMG", "https://envs.sh/_uv.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://envs.sh/CIV.gif")
 SPELL_IMG = environ.get("SPELL_IMG", "https://telegra.ph/file/86b7b7e2aa7e38f328902.jpg")
