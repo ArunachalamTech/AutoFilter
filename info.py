@@ -40,7 +40,7 @@ VERIFY = bool(environ.get('VERIFY', False)) # Verification On ( True ) / Off ( F
 HOWTOVERIFY = environ.get('HOWTOVERIFY', 'https://telegram.me/HowToDownload_Tutorial_MrAK/3') # How to open tutorial link for verification
 SHORTLINK_URL = environ.get('SHORTLINK_URL', 'modijiurl.com')
 SHORTLINK_API = environ.get('SHORTLINK_API', 'da3325d5fbd605b4bfe461a28ff6fc4b3eec7a6d')
-IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
+IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 
 USERNAME = environ.get('USERNAME', "https://telegram.me/IamMrAK_bot") # ADMIN USERNAME
 MICL = environ.get('MICL', 'https://telegram.me/MrAK_LinkZzz')
