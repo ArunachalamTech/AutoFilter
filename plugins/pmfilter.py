@@ -2999,7 +2999,7 @@ async def auto_filter(client, msg, spoll=False):
             m = await client.send_animation(
             chat_id=chat_id,
             animation=random.choice(SEARCHGIF),
-            caption=f'🔎 ᴄʜᴇᴄᴋɪɴɢ {search} ɪɴ ᴍʏ ᴏᴍɴɪᴛʀɪx'
+            caption=f'🔎 ᴄʜᴇᴄᴋɪɴɢ {search} ɪɴ ᴍʏ ᴍᴀɢɪᴄ ᴘᴏᴄᴋᴇᴛ'
         )
             search = search.lower()
             find = search.split(" ")
